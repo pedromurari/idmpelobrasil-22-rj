@@ -405,7 +405,7 @@ const Index = () => {
               <FAQItem
                 value="faq-4"
                 question="Quando e onde sera a experiencia?"
-                answer="A experiencia sera realizada no dia 10/10 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial no Rio de Janeiro - RJ (endereco a confirmar em breve). As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
+                answer="A experiencia sera realizada no dia 10/10 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial na Rua Correa Dutra, 149 - Flamengo, Rio de Janeiro - RJ. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
               />
               <FAQItem
                 value="faq-5"
@@ -456,7 +456,7 @@ const Index = () => {
               WhatsApp: (11) 97537-9719
             </p>
             <p className="flex items-center justify-center gap-2">
-              Rio de Janeiro - RJ (endereco a confirmar)
+              Rua Correa Dutra, 149 - Flamengo, Rio de Janeiro - RJ
             </p>
           </div>
 
