@@ -40,13 +40,13 @@ const Index = () => {
           <div className="text-center mb-8 animate-fade-in">
             <h1 className="hero-headline">
               <span className="headline-line highlight text-center text-2xl md:text-4xl">
-                IDM Pelo Brasil Numerologia: Uma experiencia presencial no
+                IDM Pelo Brasil Numerologia: Uma experiência presencial no
                 Rio de Janeiro para quem quer aprender, vivenciar e aplicar a numerologia
                 com clareza.
               </span>
             </h1>
             <h2 className="text-lg md:text-2xl text-muted-foreground mt-4 mb-2 font-semibold">
-              Com Rodrygo Murari: Saia com seu mapa numerologico pronto,
+              Com Rodrygo Murari: Saia com seu mapa numerológico pronto,
               certificado e material de apoio exclusivo para aplicar
               imediatamente.
             </h2>
@@ -66,7 +66,7 @@ const Index = () => {
               </div>
               <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base mt-4">
                 <span className="flex items-center gap-1">
-                  Certificado de conclusao
+                  Certificado de conclusão
                 </span>
                 <span className="flex items-center gap-1">
                   Material de apoio exclusivo
@@ -92,51 +92,51 @@ const Index = () => {
       <section className="md:py-8 relative z-10 px-[15px] py-[5px]">
         <div className="section-container section-highlight">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
-            O QUE VOCE VAI DESCOBRIR NESTA EXPERIENCIA PRESENCIAL
+            O QUE VOCÊ VAI DESCOBRIR NESTA EXPERIÊNCIA PRESENCIAL
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
-            Os 3 pilares do IDM Pelo Brasil Numerologia - conteudo pratico que
-            voce aplica no mesmo dia
+            Os 3 pilares do IDM Pelo Brasil Numerologia - conteúdo prático que
+            você aplica no mesmo dia
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
             <PillarCard
               icon="🧠"
               title="Domine os fundamentos"
-              subtitle="Calcule e interprete seus numeros com precisao"
+              subtitle="Calcule e interprete seus números com precisão"
               items={[
-                "Calculo correto do numero de destino - entenda a rota da sua vida e tome decisoes mais assertivas",
-                "Interpretacao completa dos numeros de 1 a 9 - descubra o significado por tras de cada numero",
-                "Estrutura base da numerologia pitagorica - aprenda o sistema milenar usado pelos maiores mestres",
-                "Tecnicas praticas de calculo - domine o metodo passo a passo e aplique imediatamente",
+                "Cálculo correto do número de destino - entenda a rota da sua vida e tome decisões mais assertivas",
+                "Interpretação completa dos números de 1 a 9 - descubra o significado por trás de cada número",
+                "Estrutura base da numerologia pitagórica - aprenda o sistema milenar usado pelos maiores mestres",
+                "Técnicas práticas de cálculo - domine o método passo a passo e aplique imediatamente",
               ]}
-              footer="Aprenda o metodo exato usado por profissionais"
+              footer="Aprenda o método exato usado por profissionais"
             />
 
             <PillarCard
               icon="❤️"
               title="Seu mapa pessoal"
-              subtitle="Desvende sua essencia e potencial unico"
+              subtitle="Desvende sua essência e potencial único"
               items={[
-                "Numero da alma - descubra sua essencia interior e o que realmente te motiva",
-                "Numero de expressao - entenda como voce se manifesta e e percebido pelo mundo",
-                "Leitura do mapa numerologico completo - saia do encontro com seu mapa pronto em maos",
-                "Padroes de comportamento - compreenda por que voce age de determinada forma",
+                "Número da alma - descubra sua essência interior e o que realmente te motiva",
+                "Número de expressão - entenda como você se manifesta e é percebido pelo mundo",
+                "Leitura do mapa numerológico completo - saia do encontro com seu mapa pronto em mãos",
+                "Padrões de comportamento - compreenda por que você age de determinada forma",
               ]}
               footer="Entenda sua personalidade de forma profunda"
             />
 
             <PillarCard
               icon="👁️"
-              title="Numerologia na pratica"
+              title="Numerologia na prática"
               subtitle="Transforme teoria em resultados concretos para o dia a dia"
               items={[
                 "Numerologia residencial - harmonize a energia da sua casa e melhore o ambiente",
                 "Energia da assinatura e nome profissional - potencialize sua marca pessoal",
-                "Harmonizacoes simples para o dia a dia - aplique ajustes rapidos com resultados reais",
-                "Numerologia em decisoes importantes - use os numeros como guia estrategico",
+                "Harmonizações simples para o dia a dia - aplique ajustes rápidos com resultados reais",
+                "Numerologia em decisões importantes - use os números como guia estratégico",
               ]}
-              footer="Ferramentas praticas que voce usa imediatamente"
+              footer="Ferramentas práticas que você usa imediatamente"
             />
           </div>
         </div>
@@ -155,21 +155,21 @@ const Index = () => {
               />
             </div>
             <h2 className="md:text-4xl font-bold text-foreground mb-6 text-2xl">
-              QUEM ESTA POR TRAS DESTE PROJETO?
+              QUEM ESTÁ POR TRÁS DESTE PROJETO?
             </h2>
             <div className="text-lg text-muted-foreground space-y-4 leading-relaxed">
               <p>
-                O Instituto DespertaMente e referencia em desenvolvimento
-                humano, integrando Psicanalise, PNL, Hipnose e Numerologia
-                Pitagorica Sistemica.
+                O Instituto DespertaMente é referência em desenvolvimento
+                humano, integrando Psicanálise, PNL, Hipnose e Numerologia
+                Pitagórica Sistêmica.
               </p>
               <p>
-                Nossa missao e clara: tornar o autoconhecimento acessivel
-                atraves de experiencias transformadoras, vivencias profundas e
-                formacoes de altissima qualidade.
+                Nossa missão é clara: tornar o autoconhecimento acessível
+                através de experiências transformadoras, vivências profundas e
+                formações de altíssima qualidade.
               </p>
               <p className="font-semibold text-primary text-xl price-shine">
-                Nao e apenas teoria. E transformacao real na vida de centenas de
+                Não é apenas teoria. É transformação real na vida de centenas de
                 participantes.
               </p>
             </div>
@@ -181,7 +181,7 @@ const Index = () => {
         <div className="section-container">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12">
-              CONHECA SEU PROFESSOR
+              CONHEÇA SEU PROFESSOR
             </h2>
             <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
               <div className="flex-shrink-0">
@@ -202,21 +202,21 @@ const Index = () => {
               <div className="text-muted-foreground space-y-4 leading-relaxed">
                 <p className="text-center">
                   Com mais de <span className="text-primary font-bold">5.000 HORAS</span>{" "}
-                  de atendimentos somados em setting terapeutico, experiencias,
-                  treinamentos e mentorias, Rodrygo Murari e especialista em
-                  Metafisica Comportamental e PNL Sistemica.
+                  de atendimentos somados em setting terapêutico, experiências,
+                  treinamentos e mentorias, Rodrygo Murari é especialista em
+                  Metafísica Comportamental e PNL Sistêmica.
                 </p>
                 <p className="text-center">
-                  Seu proposito? Levar uma "Numerologia Descomplicada".
+                  Seu propósito? Levar uma "Numerologia Descomplicada".
                 </p>
                 <p className="text-center">
-                  Sua abordagem revolucionaria da Numerologia Sistemica tem
+                  Sua abordagem revolucionária da Numerologia Sistêmica tem
                   transformado a vida de centenas de pessoas no Brasil e na
                   Europa.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
                   <span className="flex items-center gap-2 text-primary">
-                    Experiencia comprovada
+                    Experiência comprovada
                   </span>
                   <span className="flex items-center gap-2 text-primary">
                     Metodologia exclusiva
@@ -235,33 +235,33 @@ const Index = () => {
         <div className="section-container section-highlight">
           <div className="max-w-4xl mx-auto">
             <h2 className="md:text-4xl font-bold text-center text-foreground mb-8 text-2xl">
-              POR QUE UMA EXPERIENCIA PRESENCIAL TAO ACESSIVEL?
+              POR QUE UMA EXPERIÊNCIA PRESENCIAL TÃO ACESSÍVEL?
             </h2>
             <div className="text-lg text-muted-foreground space-y-4 leading-relaxed mb-8">
               <p className="text-center">
-                Voce deve estar se perguntando: "Como uma experiencia presencial
+                Você deve estar se perguntando: "Como uma experiência presencial
                 com certificado pode custar apenas R$ 20?"
               </p>
               <p className="font-semibold text-primary text-xl text-center">
-                A resposta e simples: nossa missao e democratizar o
+                A resposta é simples: nossa missão é democratizar o
                 autoconhecimento.
               </p>
               <p className="text-center font-semibold text-foreground">
-                Este nao e um encontro online generico. E uma experiencia
-                presencial, com a profundidade e a interacao que so o contato
+                Este não é um encontro online genérico. É uma experiência
+                presencial, com a profundidade e a interação que só o contato
                 direto pode oferecer.
               </p>
               <p className="text-center">
-                Queremos que VOCE tenha acesso a ferramentas poderosas de
-                transformacao, independente da sua situacao financeira.
+                Queremos que VOCÊ tenha acesso a ferramentas poderosas de
+                transformação, independente da sua situação financeira.
               </p>
               <p className="text-center">
-                O investimento simbolico de R$ 20 garante seu compromisso e
-                nossa capacidade de organizar o melhor evento possivel.
+                O investimento simbólico de R$ 20 garante seu compromisso e
+                nossa capacidade de organizar o melhor evento possível.
               </p>
               <p className="text-center text-primary font-bold">
-                Aproveite: a proxima turma sera pelo valor integral. Esta e uma
-                oportunidade unica.
+                Aproveite: a próxima turma será pelo valor integral. Esta é uma
+                oportunidade única.
               </p>
             </div>
 
@@ -269,7 +269,7 @@ const Index = () => {
               <div className="flex justify-center gap-8 mb-6 flex-wrap">
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">
-                    Valor real da experiencia:
+                    Valor real da experiência:
                   </p>
                   <p className="text-3xl font-bold line-through text-muted-foreground">
                     R$ 497
@@ -287,24 +287,24 @@ const Index = () => {
                 </div>
               </div>
               <p className="text-2xl font-bold price-shine">
-                Sim, voce esta economizando 96%!
+                Sim, você está economizando 96%!
               </p>
             </div>
 
             <div className="mt-8 bg-card/50 border border-primary/30 rounded-xl p-6">
               <h3 className="text-2xl font-bold text-center text-primary mb-6">
-                O QUE ESTA INCLUSO:
+                O QUE ESTÁ INCLUSO:
               </h3>
               <div className="grid md:grid-cols-2 gap-3 text-muted-foreground">
                 {[
                   "Encontro presencial completo (4 horas)",
-                  "Certificado de conclusao reconhecido",
+                  "Certificado de conclusão reconhecido",
                   "Material de apoio exclusivo",
-                  "Seu mapa numerologico pronto",
-                  "Cafe e networking",
+                  "Seu mapa numerológico pronto",
+                  "Café e networking",
                   "Suporte durante o evento",
                   "Acesso ao grupo exclusivo de participantes",
-                  "Bonus surpresa no dia",
+                  "Bônus surpresa no dia",
                 ].map((item, index) => (
                   <p key={index} className="flex items-center gap-2">
                     {item}
@@ -322,33 +322,33 @@ const Index = () => {
       <section className="py-6 md:py-8 px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            ULTIMAS VAGAS DISPONIVEIS!
+            ÚLTIMAS VAGAS DISPONÍVEIS!
           </h2>
           <p className="text-xl text-primary font-semibold mb-8">
-            Nao perca esta oportunidade unica - proxima turma pelo valor
+            Não perca esta oportunidade única - próxima turma pelo valor
             integral
           </p>
           <div className="text-lg text-muted-foreground space-y-4 mb-8 leading-relaxed">
-            <p>Este e um evento presencial com vagas limitadas.</p>
+            <p>Este é um evento presencial com vagas limitadas.</p>
             <p>
-              Quando acabarem as vagas, nao havera mais oportunidade de
+              Quando acabarem as vagas, não haverá mais oportunidade de
               participar nesta turma por esse valor promocional.
             </p>
-            <p>A proxima turma (se houver) sera pelo valor integral de R$ 497.</p>
+            <p>A próxima turma (se houver) será pelo valor integral de R$ 497.</p>
             <div className="py-6 space-y-2">
               <p className="font-semibold text-primary text-xl">
-                Voce esta a apenas 1 clique de transformar sua visao
+                Você está a apenas 1 clique de transformar sua visão
               </p>
               <p className="font-semibold text-primary text-xl">
-                Sao apenas R$ 20 - menos que um almoco
+                São apenas R$ 20 - menos que um almoço
               </p>
               <p className="font-semibold text-primary text-xl">
                 Risco zero e retorno infinito
               </p>
             </div>
             <p className="text-xl">
-              A escolha e sua: continuar sem respostas ou descobrir seu
-              verdadeiro proposito.
+              A escolha é sua: continuar sem respostas ou descobrir seu
+              verdadeiro propósito.
             </p>
           </div>
 
@@ -360,17 +360,17 @@ const Index = () => {
             }}
           >
             <button className="w-full max-w-md mx-auto h-auto py-4 px-6 text-lg md:text-xl font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-2xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105">
-              Ultimas Vagas: Garanta Sua Experiencia Presencial por R$20!
+              Últimas Vagas: Garanta Sua Experiência Presencial por R$20!
             </button>
           </a>
 
           <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm text-muted-foreground">
             <p className="flex items-center gap-2">
-              + de 500 participantes ja viveram esta experiencia
+              + de 500 participantes já viveram esta experiência
             </p>
-            <p className="flex items-center gap-2">98% de taxa de satisfacao</p>
+            <p className="flex items-center gap-2">98% de taxa de satisfação</p>
             <p className="flex items-center gap-2">
-              Metodologia comprovada ha mais de 10 anos
+              Metodologia comprovada há mais de 10 anos
             </p>
           </div>
         </div>
@@ -383,49 +383,49 @@ const Index = () => {
               PERGUNTAS FREQUENTES
             </h2>
             <p className="text-center text-muted-foreground mb-12 text-xl">
-              Tire Suas Duvidas Antes de Garantir Sua Vaga
+              Tire Suas Dúvidas Antes de Garantir Sua Vaga
             </p>
 
             <Accordion type="single" collapsible className="space-y-4">
               <FAQItem
                 value="faq-1"
-                question="Nunca estudei numerologia. Esta experiencia e para mim?"
-                answer="SIM! Este encontro foi desenvolvido especialmente para iniciantes. Voce nao precisa de conhecimento previo. Vamos comecar do zero e voce saira do evento ja sabendo calcular e interpretar seu proprio mapa numerologico."
+                question="Nunca estudei numerologia. Esta experiência é para mim?"
+                answer="SIM! Este encontro foi desenvolvido especialmente para iniciantes. Você não precisa de conhecimento prévio. Vamos começar do zero e você sairá do evento já sabendo calcular e interpretar seu próprio mapa numerológico."
               />
               <FAQItem
                 value="faq-2"
-                question="Por que apenas R$ 20? Qual e a pegadinha?"
-                answer="Nao ha pegadinha! Nossa missao e democratizar o autoconhecimento. O valor simbolico garante seu compromisso com a experiencia e cobre custos basicos de material. Queremos que o maximo de pessoas possam ter acesso a essa transformacao."
+                question="Por que apenas R$ 20? Qual é a pegadinha?"
+                answer="Não há pegadinha! Nossa missão é democratizar o autoconhecimento. O valor simbólico garante seu compromisso com a experiência e cobre custos básicos de material. Queremos que o máximo de pessoas possam ter acesso a essa transformação."
               />
               <FAQItem
                 value="faq-3"
-                question="O certificado e reconhecido?"
-                answer="Sim! Voce recebera um certificado de conclusao emitido pelo Instituto DespertaMente, valido como comprovacao de participacao e aprendizado em Numerologia Pitagorica Sistemica."
+                question="O certificado é reconhecido?"
+                answer="Sim! Você receberá um certificado de conclusão emitido pelo Instituto DespertaMente, válido como comprovação de participação e aprendizado em Numerologia Pitagórica Sistêmica."
               />
               <FAQItem
                 value="faq-4"
-                question="Quando e onde sera a experiencia?"
-                answer="A experiencia sera realizada no dia 10/10 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial na Rua Corrêa Dutra, 149 - Flamengo, Rio de Janeiro - RJ. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
+                question="Quando e onde será a experiência?"
+                answer="A experiência será realizada no dia 10/10 (Sábado), com duas turmas: Manhã (09h às 13h) e Tarde (14h às 18h), presencial na Rua Corrêa Dutra, 149 - Flamengo, Rio de Janeiro - RJ. As informações detalhadas serão enviadas imediatamente após sua inscrição, por WhatsApp."
               />
               <FAQItem
                 value="faq-5"
-                question="E se eu nao puder comparecer depois de pagar?"
-                answer="Entre em contato conosco com 48h de antecedencia. Avaliaremos a possibilidade de transferir sua vaga para a proxima turma ou realizar o reembolso integral."
+                question="E se eu não puder comparecer depois de pagar?"
+                answer="Entre em contato conosco com 48h de antecedência. Avaliaremos a possibilidade de transferir sua vaga para a próxima turma ou realizar o reembolso integral."
               />
               <FAQItem
                 value="faq-6"
                 question="Preciso levar algum material?"
-                answer="Nao! Todo material didatico esta incluso. Voce so precisa levar voce mesmo, com mente aberta e vontade de aprender. Recomendamos trazer uma garrafa de agua e um caderno extra se quiser fazer anotacoes pessoais."
+                answer="Não! Todo material didático está incluso. Você só precisa levar você mesmo, com mente aberta e vontade de aprender. Recomendamos trazer uma garrafa de água e um caderno extra se quiser fazer anotações pessoais."
               />
               <FAQItem
                 value="faq-7"
-                question="Vou conseguir fazer calculos numerologicos depois do encontro?"
-                answer="COM CERTEZA! A experiencia e 100% pratica. Voce vai calcular seu proprio mapa durante o evento e saira de la apto a calcular para outras pessoas. E aprender fazendo!"
+                question="Vou conseguir fazer cálculos numerológicos depois do encontro?"
+                answer="COM CERTEZA! A experiência é 100% prática. Você vai calcular seu próprio mapa durante o evento e sairá de lá apto a calcular para outras pessoas. É aprender fazendo!"
               />
               <FAQItem
                 value="faq-8"
-                question="O pagamento e seguro?"
-                answer="Absolutamente! Utilizamos a plataforma Cakto, uma das mais seguras do Brasil. Seus dados estao 100% protegidos e voce recebera confirmacao imediata do pagamento."
+                question="O pagamento é seguro?"
+                answer="Absolutamente! Utilizamos a plataforma Cakto, uma das mais seguras do Brasil. Seus dados estão 100% protegidos e você receberá confirmação imediata do pagamento."
               />
             </Accordion>
           </div>
@@ -445,7 +445,7 @@ const Index = () => {
             Instituto DespertaMente
           </p>
           <p className="text-muted-foreground">
-            Transformando vidas atraves do autoconhecimento
+            Transformando vidas através do autoconhecimento
           </p>
 
           <div className="space-y-2 text-muted-foreground">

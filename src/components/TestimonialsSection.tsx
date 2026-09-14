@@ -10,35 +10,35 @@ export const TestimonialsSection = () => {
       name: "Participante IDM",
       videoId: "ItN5HYo3WnY",
       embedUrl: "https://www.youtube.com/embed/ItN5HYo3WnY",
-      quote: "A numerologia transformou completamente minha visao sobre mim mesmo.",
+      quote: "A numerologia transformou completamente minha visão sobre mim mesmo.",
     },
     {
       id: 2,
       name: "Participante IDM",
       videoId: "7D8RIWBfsQA",
       embedUrl: "https://www.youtube.com/embed/7D8RIWBfsQA",
-      quote: "O metodo do Rodrygo e unico e muito pratico.",
+      quote: "O método do Rodrygo é único e muito prático.",
     },
     {
       id: 3,
       name: "Participante IDM",
       videoId: "0dr-2LRKfPk",
       embedUrl: "https://www.youtube.com/embed/0dr-2LRKfPk",
-      quote: "Descobri meu proposito atraves dos numeros.",
+      quote: "Descobri meu propósito através dos números.",
     },
     {
       id: 4,
       name: "Participante IDM",
       videoId: "i52fixRZpgU",
       embedUrl: "https://www.youtube.com/embed/i52fixRZpgU",
-      quote: "Experiencia incrivel! Recomendo para todos.",
+      quote: "Experiência incrível! Recomendo para todos.",
     },
     {
       id: 5,
       name: "Participante IDM",
       videoId: "QZxwaOXyhy8",
       embedUrl: "https://www.youtube.com/embed/QZxwaOXyhy8",
-      quote: "Uma experiencia transformadora que mudou minha vida.",
+      quote: "Uma experiência transformadora que mudou minha vida.",
     },
   ];
 
@@ -59,7 +59,7 @@ export const TestimonialsSection = () => {
               O que dizem nossos <span className="text-primary">Participantes</span>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-              Histórias reais de transformação através da nossa experiencia
+              Histórias reais de transformação através da nossa experiência
               presencial de Numerologia.
             </p>
           </div>

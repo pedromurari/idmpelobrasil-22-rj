@@ -12,10 +12,10 @@ type TurmaOption = "10out_manha" | "10out_tarde" | null;
 
 const TURMA_CONFIG = {
   "10out_manha": {
-    label: "10/10 - Manha",
+    label: "10/10 - Manhã",
     data: "10 de Outubro",
-    diaSemana: "Sabado",
-    horario: "09:00 as 13:00",
+    diaSemana: "Sábado",
+    horario: "09:00 às 13:00",
     endereco: "Rua Corrêa Dutra, 149 - Flamengo, Rio de Janeiro - RJ",
     enderecoDefinido: true,
     esgotada: false,
@@ -24,8 +24,8 @@ const TURMA_CONFIG = {
   "10out_tarde": {
     label: "10/10 - Tarde",
     data: "10 de Outubro",
-    diaSemana: "Sabado",
-    horario: "14:00 as 18:00",
+    diaSemana: "Sábado",
+    horario: "14:00 às 18:00",
     endereco: "Rua Corrêa Dutra, 149 - Flamengo, Rio de Janeiro - RJ",
     enderecoDefinido: true,
     esgotada: true,
@@ -57,8 +57,8 @@ export const EnrollmentForm = () => {
   const validateForm = () => {
     if (name.trim().length < 3) {
       toast({
-        title: "Nome invalido",
-        description: "Por favor, digite seu nome completo (minimo 3 caracteres)",
+        title: "Nome inválido",
+        description: "Por favor, digite seu nome completo (mínimo 3 caracteres)",
         variant: "destructive",
       });
       return false;
@@ -66,8 +66,8 @@ export const EnrollmentForm = () => {
     const numbers = whatsapp.replace(/\D/g, "");
     if (numbers.length < 10 || numbers.length > 11) {
       toast({
-        title: "WhatsApp invalido",
-        description: "Por favor, digite um numero valido com DDD",
+        title: "WhatsApp inválido",
+        description: "Por favor, digite um número válido com DDD",
         variant: "destructive",
       });
       return false;
@@ -129,7 +129,7 @@ export const EnrollmentForm = () => {
           "track",
           "Lead",
           {
-            content_name: `Inscricao - ${turmaConfig.label}`,
+            content_name: `Inscrição - ${turmaConfig.label}`,
             status: "pending",
           },
           {
@@ -158,7 +158,7 @@ export const EnrollmentForm = () => {
               lastName: name.split(" ").slice(1).join(" "),
             },
             customData: {
-              content_name: `Inscricao - ${turmaConfig.label}`,
+              content_name: `Inscrição - ${turmaConfig.label}`,
               status: "pending",
             },
           }),
@@ -171,7 +171,7 @@ export const EnrollmentForm = () => {
         setIsLoading(false);
         toast({
           title: "Interesse registrado!",
-          description: "Assim que o checkout abrir, avisamos voce pelo WhatsApp.",
+          description: "Assim que o checkout abrir, avisamos você pelo WhatsApp.",
         });
         return;
       }
@@ -250,7 +250,7 @@ export const EnrollmentForm = () => {
       console.error("Error:", error);
       toast({
         title: "Erro ao enviar dados",
-        description: "Por favor, tente novamente ou entre em contato via WhatsApp",
+        description: "Por favor, tente novamente ou entre em contato via WhatsApp.",
         variant: "destructive",
       });
       setIsLoading(false);
@@ -436,16 +436,16 @@ export const EnrollmentForm = () => {
               Processando...
             </>
           ) : (
-            <>Ultimas Vagas: Garanta Sua Experiencia por R$20!</>
+            <>Últimas Vagas: Garanta Sua Experiência por R$20!</>
           )}
         </button>
 
         <div className="flex flex-col gap-2 text-center text-sm text-muted-foreground">
           <p className="flex items-center justify-center gap-1">
-            Ultimas vagas disponiveis!
+            Últimas vagas disponíveis!
           </p>
           <p className="flex items-center justify-center gap-1">
-            Seus dados estao 100% seguros
+            Seus dados estão 100% seguros
           </p>
           <p className="flex items-center justify-center gap-1">
             Pagamento seguro via Mercado Pago
