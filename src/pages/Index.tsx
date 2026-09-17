@@ -76,7 +76,7 @@ const Index = () => {
                 </span>
               </div>
               <p className="text-2xl md:text-3xl font-bold text-primary mt-4">
-                Garanta sua vaga por apenas R$20 reais.
+                Garanta sua vaga por apenas R$26 reais.
               </p>
             </div>
           </div>
@@ -240,7 +240,7 @@ const Index = () => {
             <div className="text-lg text-muted-foreground space-y-4 leading-relaxed mb-8">
               <p className="text-center">
                 Você deve estar se perguntando: "Como uma experiência presencial
-                com certificado pode custar apenas R$ 20?"
+                com certificado pode custar apenas R$ 26?"
               </p>
               <p className="font-semibold text-primary text-xl text-center">
                 A resposta é simples: nossa missão é democratizar o
@@ -256,7 +256,7 @@ const Index = () => {
                 transformação, independente da sua situação financeira.
               </p>
               <p className="text-center">
-                O investimento simbólico de R$ 20 garante seu compromisso e
+                O investimento simbólico de R$ 26 garante seu compromisso e
                 nossa capacidade de organizar o melhor evento possível.
               </p>
               <p className="text-center text-primary font-bold">
@@ -279,15 +279,15 @@ const Index = () => {
                   <p className="text-sm text-muted-foreground mb-1">
                     Seu investimento hoje:
                   </p>
-                  <p className="text-4xl font-bold price-shine">R$ 20</p>
+                  <p className="text-4xl font-bold price-shine">R$ 26</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Economia:</p>
-                  <p className="text-3xl font-bold text-primary">R$ 477</p>
+                  <p className="text-3xl font-bold text-primary">R$ 471</p>
                 </div>
               </div>
               <p className="text-2xl font-bold price-shine">
-                Sim, você está economizando 96%!
+                Sim, você está economizando 95%!
               </p>
             </div>
 
@@ -312,7 +312,7 @@ const Index = () => {
                 ))}
               </div>
               <p className="text-center text-xl font-bold price-shine mt-6">
-                TUDO ISSO POR R$ 20!
+                TUDO ISSO POR R$ 26!
               </p>
             </div>
           </div>
@@ -340,7 +340,7 @@ const Index = () => {
                 Você está a apenas 1 clique de transformar sua visão
               </p>
               <p className="font-semibold text-primary text-xl">
-                São apenas R$ 20 - menos que um almoço
+                São apenas R$ 26 - menos que um almoço
               </p>
               <p className="font-semibold text-primary text-xl">
                 Risco zero e retorno infinito
@@ -360,7 +360,7 @@ const Index = () => {
             }}
           >
             <button className="w-full max-w-md mx-auto h-auto py-4 px-6 text-lg md:text-xl font-bold bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-2xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105">
-              Últimas Vagas: Garanta Sua Experiência Presencial por R$20!
+              Últimas Vagas: Garanta Sua Experiência Presencial por R$26!
             </button>
           </a>
 
@@ -394,7 +394,7 @@ const Index = () => {
               />
               <FAQItem
                 value="faq-2"
-                question="Por que apenas R$ 20? Qual é a pegadinha?"
+                question="Por que apenas R$ 26? Qual é a pegadinha?"
                 answer="Não há pegadinha! Nossa missão é democratizar o autoconhecimento. O valor simbólico garante seu compromisso com a experiência e cobre custos básicos de material. Queremos que o máximo de pessoas possam ter acesso a essa transformação."
               />
               <FAQItem

@@ -209,7 +209,7 @@ export const EnrollmentForm = () => {
             {
               content_name: `IDM Pelo Brasil Numerologia - ${turmaConfig.label}`,
               content_type: "product",
-              value: 20,
+              value: 26,
               currency: "BRL",
             },
             {
@@ -238,7 +238,7 @@ export const EnrollmentForm = () => {
             customData: {
               content_name: `IDM Pelo Brasil Numerologia - ${turmaConfig.label}`,
               content_type: "product",
-              value: 20,
+              value: 26,
               currency: "BRL",
             },
           }),
@@ -436,7 +436,7 @@ export const EnrollmentForm = () => {
               Processando...
             </>
           ) : (
-            <>Últimas Vagas: Garanta Sua Experiência por R$20!</>
+            <>Últimas Vagas: Garanta Sua Experiência por R$26!</>
           )}
         </button>
 
