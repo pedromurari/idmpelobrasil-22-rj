@@ -19,7 +19,7 @@ const TURMA_CONFIG = {
     endereco: "Rua Corrêa Dutra, 149 - Flamengo, Rio de Janeiro - RJ",
     enderecoDefinido: true,
     esgotada: false,
-    checkoutUrl: "",
+    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD99B",
   },
   "10out_tarde": {
     label: "10/10 - Tarde",
